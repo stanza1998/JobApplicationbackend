@@ -48,8 +48,8 @@ namespace backend.Controllers
         }
 
 
-        //read by job Id
-        [HttpGet]
+        //read by job Id very important
+/*        [HttpGet]
         [Route("Get/{id}")]
         public async Task<ActionResult<JobGetDto>> GetJobById(long id)
         {
@@ -63,7 +63,7 @@ namespace backend.Controllers
             
             return Ok(convertedJob);
 
-        }
+        }*/
 
 
 
